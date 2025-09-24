@@ -1,5 +1,5 @@
 # 🎉 Welcome to DESN368 CODE + DESIGN ONE!
-
+Justine Leinen-9/24
 **Welcome to DESN368 Web Design!**  
 You're viewing the instructor's course repository(repo). This serves as your reference and source for all course materials.  
 
