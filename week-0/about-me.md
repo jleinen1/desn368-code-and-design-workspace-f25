@@ -6,7 +6,7 @@
 [Your answer here]
 
 **2. Design courses completed:**  
-[x] DESN 100  
+- [x] DESN 100  
 [x] DESN 200  
 [x] DESN 216  
 [ ] DESN 243  
