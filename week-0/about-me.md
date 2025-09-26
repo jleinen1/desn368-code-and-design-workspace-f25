@@ -6,17 +6,17 @@
 [Your answer here]
 
 **2. Design courses completed:**  
-- [x] DESN 100  
-- [x] DESN 200  
-- [x] DESN 216  
+[x] DESN 100  
+[x] DESN 200  
+[x] DESN 216  
 [ ] DESN 243  
-- [x] DESN 263  
+[x] DESN 263  
 [ ] DESN 338  
 [ ] None  
 [ ] Other: _______________
 
 **3. Web experience:**  
-- [x] Never coded  
+[x] Never coded  
 [ ] Viewed source  
 [ ] Modified HTML/CSS  
 [ ] Built websites  
@@ -24,7 +24,7 @@
 
 **4. AI tool experience:**  
 [ ] Never used  
-- [x] ChatGPT occasionally  
+[x] ChatGPT occasionally  
 [ ] Regular AI user  
 [ ] Coding with AI  
 [ ] Not sure what this means
@@ -32,7 +32,7 @@
 ## Designer-Coder Mindset
 
 **5. When you see a website, you primarily notice:**  
-- [x] Visual design  
+[x] Visual design  
 [ ] How it functions  
 [ ] Both equally  
 [ ] Other: _______________
@@ -45,9 +45,9 @@
 
 **7. Learning preference:**  
 [ ] Jump in and build  
-- [x] Step-by-step tutorials  
+[x] Step-by-step tutorials  
 [ ] Read first, then practice  
-- [x] Learn from mistakes  
+[x] Learn from mistakes  
 [ ] Other: _______________
 
 ## Course Alignment
@@ -56,20 +56,20 @@
 [ ] Pass class  
 [ ] Build portfolio  
 [ ] Understand web development  
-- [x] Career prep  
+[x] Career prep  
 [ ] Personal interest
 
 **9. Biggest concern:**  
 [ ] Keeping up  
-- [x] Syntax/technical details  
+[x] Syntax/technical details  
 [ ] Design skills  
 [ ] Working with others  
 [ ] Using AI appropriately
 
 **10. Most excited about:**  
 [ ] Making things work  
-- [x] Visual design  
-- [x] Combining design + code  
+[x] Visual design  
+[x] Combining design + code  
 [ ] AI collaboration  
 [ ] Not sure yet
 
@@ -77,13 +77,13 @@
 
 **11. HTML is primarily for:**  
 [ ] Visual styling and layout  
-- [x] Content structure and meaning  
+[x] Content structure and meaning  
 [ ] Interactive functionality  
 [ ] Database connections
 
 **12. CSS is primarily for:**  
 [ ] Content structure  
-- [x] Visual styling and layout  
+[x] Visual styling and layout  
 [ ] Programming logic  
 [ ] Server communication
 
