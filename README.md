@@ -41,7 +41,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 *Update these links as you complete each tool setup:*
 - **GitHub:** [(https://github.com/sicxz/DESN368-code-design-workspace)] ⏳
 - **Workspace (Forked Repo):** [(https://github.com/jleinen1/DESN368-code-design-workspace-JustineLeinen)] ⏳
-- **Figma:** [Add your Figma username here] ⏳
+- **Figma:** [justine86] ⏳
 - **CodePen:** [(https://codepen.io/jleinen1)] ⏳
 - **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳  
