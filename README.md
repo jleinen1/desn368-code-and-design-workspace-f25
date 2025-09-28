@@ -43,8 +43,8 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace (Forked Repo):** [(https://github.com/jleinen1/DESN368-code-design-workspace-JustineLeinen)] ⏳
 - **Figma:** [justine86] ⏳
 - **CodePen:** [(https://codepen.io/jleinen1)] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳  
+- **LiveCode:** [justineleinen@gmail.com] ⏳
+- **GitHub Student Pack:** [Pending] ⏳  
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README  
@@ -62,7 +62,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🎯 **Course Progress**
 *Check off assignments as you complete them:*  
 
-- [ ] **Week 1:** S3tup & 0nb04rd1ng  
+- [x] **Week 1:** S3tup & 0nb04rd1ng  
 - [ ] **Week 2:** Th3 F1r5t T4g  
 - [ ] **Week 3:** D0cum3nt 4rch1t3ctur3  
 - [ ] **Week 4:** Th3 C4sc4d3 B3g1n5  
