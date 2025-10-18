@@ -1,6 +1,6 @@
 /* Center content container */
 main {
-  max-width: 800px; /* change this at will */
+  max-width: 800px; 
   margin: 0 auto;
   padding: 20px;
   background-color: # E8BCB9;
@@ -8,9 +8,13 @@ main {
 }
 
 body {
-  font-family: "Lato"
+  font-family: "Montserrat";
   font-size: 16px
   color: # 432E54;
+}
+
+h1, h2, h3 {
+  font-family: "Libre Bodoni";
 }
 
 h1 {
