@@ -1,13 +1,12 @@
-/* Center content container */
 main {
   max-width: 800px; 
   margin: 0 auto;
   padding: 20px;
-  background-color: #E8BCB9;
   text-align: center;
 }
 
 body {
+  background-color: #E8BCB9;
   font-family: "Montserrat";
   font-size: 16px
   color: # 432E54;
