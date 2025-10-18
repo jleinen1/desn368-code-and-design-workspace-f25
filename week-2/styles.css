@@ -29,6 +29,12 @@ h1, h2, h3 {
   color: # 4B4376;
 }
 
+a {
+  color: #AE445A;   
+  text-decoration: none;
+}
+
+
 img {
   max-width: 100%;
   height: auto;
