@@ -1,6 +1,31 @@
+/* Center content container */
+main {
+  max-width: 800px; /* change this at will */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: # E8BCB9;
+}
 
-h1, h2 {
-  color: 1A1A1D;
+body {
+  font-family: "Lato"
+  font-size: 16px
+  color: # 432E54;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h1, h2, h3 {
+  color: # 4B4376;
 }
 
 img {
