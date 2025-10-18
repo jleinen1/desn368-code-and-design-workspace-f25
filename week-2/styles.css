@@ -3,7 +3,7 @@ main {
   max-width: 800px; 
   margin: 0 auto;
   padding: 20px;
-  background-color: # E8BCB9;
+  background-color: #E8BCB9;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@ h3 {
 }
 
 h1, h2, h3 {
-  color: # 4B4376;
+  color: #4B4376;
 }
 
 a {
