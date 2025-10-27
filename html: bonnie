@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bonnie MacLean Tribute</title>
+  <link rel="styelesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+<div class="container">
+ <section class="header">
+   <h1>Bonnie MacLean (1939–2020)</h1>
+   <h2>American Poster Artist</h2>
+     <img src="placeholder.jpg" alt="Bonnie MacLean in her studio" class="portrait" />
+   <blockquote>
+     “Poster art was how we spoke to each other before the internet—through images that captured the sound and spirit of a time.”
+   </blockquote>
+  </section>
+  
+  <section class="about">
+    <h3>About Bonnie</h3>
+      <p> 
+        Bonnie MacLean is often cited as one of the few women to break into the male-dominated world of psychedelic poster art. 
+        Her designs combined fantasy, symbolism, and painterly detail.
+    </p>
+      Her poster work helped define the visual aesthetic of San Francisco’s rock era, 
+        swirling typography, organic symmetry, and electric color that mirrored the music and mood of the late 1960s.
+    </p>
+    <p>
+       Today, her work is exhibited in major museums and continues to inspire designers exploring 
+        hand-drawn typography and expressive, immersive design.
+    <p>
+  </section>
+  <section class="timeline">
+    <h3>A Quick Timeline</h3>
+    <ul>
+      <li><strong>Early 1960's:</strong> Moves to San Francisco and immerses herself in the emerging counterculture art community.</li>
+      <li><strong>Early 1960's:</strong> Moves to San Francisco and immerses herself in the emerging counterculture art community.</li>
+      <li><strong>Early 1960's:</strong> Moves to San Francisco and immerses herself in the emerging counterculture art community.</li>
+      <li><strong>Early 1960's:</strong> Moves to San Francisco and immerses herself in the emerging counterculture art community.</li>
+      <li><strong>Early 1960's:</strong> Moves to San Francisco and immerses herself in the emerging counterculture art community.</li>
+      </section>
+    </div>
+  </body>
+</html>
+    
+  
+  
