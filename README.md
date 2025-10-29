@@ -15,7 +15,10 @@ This repository shows my progress in DESN368 throughout the Fall 2025 quarter! I
 ## Week 1 - Introduction to the Internet and the Web
 
 **Topics Covered:**
-
+- What is the Internet vs. the World Wide Web
+- How browsers work
+- Understanding IP addresses, DNS, and URLs
+- History of the web
 
 **Key Takeaways:**
 I found it interesting to learn about the history of the Web. I also liked using the Wayback Machine to view an old version of Pinterest and compare it to a new one. Another thing that stood out to me was learning about IP addresses, and how they basically reveal your location.
@@ -29,18 +32,18 @@ I found it interesting to learn about the history of the Web. I also liked using
 ## Week 2 - HTML
 
 **Topics Covered:**
--Structuring HTML
--Migrating HTML code from CodePen > GitHub
+- Structuring HTML
+- Migrating HTML code from CodePen > GitHub
 
 
 **Key Takeaways:**
 This week I learned a lot about HTML and what all the different elements are used for.  HTML elements do different things like break a paragraph or insert links into a webpage.
 
 **Projects/Exercises:**
--IP address experiment: Use tools to identify the IP address of a website, and to geolocate an IP address.
--Use the WayBack Machine to view an old version of a popular website.
--Create a newspaper article, lost pet flyer, and a band flyer using HTML code on Codedex
--Write a recipe using HTML
+- IP address experiment: Use tools to identify the IP address of a website, and to geolocate an IP address.
+- Use the WayBack Machine to view an old version of a popular website.
+- Create a newspaper article, lost pet flyer, and a band flyer using HTML code on Codedex
+- Write a recipe using HTML
 
 **Files:**
 - [Link to specific files or note what's in the week-2 folder]
