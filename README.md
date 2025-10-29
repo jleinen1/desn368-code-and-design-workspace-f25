@@ -18,7 +18,8 @@ This repository shows my progress in DESN368 throughout the Fall 2025 quarter! I
 
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned or found most interesting]
+I found it interesting to learn about the history of the Web. I also liked using the Wayback Machine to view an old version of Pinterest and compare it to a new one. Another thing that stood out to me was learning about IP addresses, and how they basically reveal your location.
+
 
 **Files:**
 - [Link to specific files or note what's in the week-1 folder]
