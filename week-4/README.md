@@ -17,4 +17,4 @@ It was all pretty challenging to be honest! The most difficult part was probably
 I definitely understand the idea of classes and ID's much better now that I have had some practice with them.
 
 **How closely does your code match your design? What would you do differently?**
-
+I think that I did a decent job matching my code to my Figma design. Everything looks accurate in CodePen, but I am struggling a little with getting the live site to deploy properly with all the styles. The biggest struggle for me was getting the spacing to be accurate.
