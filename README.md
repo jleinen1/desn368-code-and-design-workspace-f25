@@ -25,7 +25,9 @@ I found it interesting to learn about the history of the Web. I also liked using
 
 
 **Files:**
-- [Link to specific files or note what's in the week-1 folder]
+- lostpet.html
+- favoriteband.html
+- newspaper.html
 
 ---
 
@@ -46,7 +48,12 @@ This week I learned a lot about HTML and what all the different elements are use
 - Write a recipe using HTML
 
 **Files:**
-- [Link to specific files or note what's in the week-2 folder]
+- craigslist-ad
+- french75.jpg
+- lorem-ipsum
+- wiki-article
+- recipe.html
+- styles.css
 
 ---
 
@@ -64,7 +71,11 @@ Learning about CSS has been my favorite part of this class so far, because it is
 -Practiced CSS exercises on CodePen that introduced me to grouping and chaining selectors
 
 **Files:**
-- [Link to specific files or note what's in the week-3 folder]
+- wk3-css-foundations-lvl-1
+- wk3-css-foundations-lvl-2
+- wk3-css-foundations-lvl-3
+- wk3-css-foundations-lvl-4
+- cascade/01-cascade-fix
 
 ---
 
@@ -76,7 +87,7 @@ Learning about CSS has been my favorite part of this class so far, because it is
 - Markdown formatting
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned]
+This week I learned a lot about how to organize and maintain my GitHub repo. I also learned how to use GitHub Pages to deploy my index.html site.
 
 **Tasks Completed:**
 - Cleaned up and personalized my repo
