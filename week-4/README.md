@@ -11,7 +11,7 @@ This folder contains files for Week 4.
 ## Reflection
 
 **What was the hardest part of translating your design to code?**
-It was all pretty challenging to be honest! The most difficult part was probably writing the HTML and getting the structure just right.
+It was all pretty challenging to be honest! The most difficult part was probably writing the HTML and getting the structure just right. If I made a single typo, it threw the whole project off.
 
 **What CSS property/concept do you feel you understand better now?**
 I definitely understand the idea of classes and ID's much better now that I have had some practice with them.
