@@ -97,7 +97,7 @@ This week I learned a lot about how to organize and maintain my GitHub repo. I a
 
 ## Resources
 
-- 
+- https://www.codecademy.com/enrolled/courses/learn-css-introduction
 
 ## Tools Used
 
