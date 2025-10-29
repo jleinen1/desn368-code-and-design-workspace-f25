@@ -5,7 +5,7 @@ This folder contains files for Week 4.
 # Project 1: Tribute Page
 
 ## Links
-- **Figma Design:** [link]
+- **Figma Design:** (https://www.figma.com/design/460cpMBF3EeQBXKYrGGRaO/tribute-bonniemaclean-jl-f25?node-id=2-20&t=lXea74XYUN4bmYXx-1)
 - **Live Page:** [link]
 
 ## Reflection
