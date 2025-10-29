@@ -86,14 +86,13 @@ Learning about CSS has been my favorite part of this class so far, because it is
 
 ## Resources
 
-- [Link to course materials]
-- [Link to helpful websites or tutorials you found]
-- [Any other resources you want to remember]
+- 
 
 ## Tools Used
 
 - VS Code
 - Firefox Developer Edition
 - GitHub
-- [Other tools]
+- Codedex
+- Netlify
 
