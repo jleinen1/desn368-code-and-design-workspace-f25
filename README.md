@@ -97,7 +97,9 @@ This week I learned a lot about how to organize and maintain my GitHub repo. I a
 
 ## Resources
 
-- https://www.codecademy.com/enrolled/courses/learn-css-introduction
+- MDN HTML Introduction: https://developer.mozilla.org/en-US/curriculum/core/semantic-html/
+- Code Academy CSS Introduction: https://www.codecademy.com/enrolled/courses/learn-css-introduction
+- CSS Diner: https://flukeout.github.io
 
 ## Tools Used
 
