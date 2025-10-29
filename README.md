@@ -26,32 +26,39 @@ I found it interesting to learn about the history of the Web. I also liked using
 
 ---
 
-## Week 2 - [Topic Title]
+## Week 2 - HTML
 
 **Topics Covered:**
-- [List main topics]
+-Structuring HTML
+-Migrating HTML code from CodePen > GitHub
+
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned or found most interesting]
+This week I learned a lot about HTML and what all the different elements are used for.  HTML elements do different things like break a paragraph or insert links into a webpage.
 
 **Projects/Exercises:**
-- [Describe what you built or practiced]
+-IP address experiment: Use tools to identify the IP address of a website, and to geolocate an IP address.
+-Use the WayBack Machine to view an old version of a popular website.
+-Create a newspaper article, lost pet flyer, and a band flyer using HTML code on Codedex
+-Write a recipe using HTML
 
 **Files:**
 - [Link to specific files or note what's in the week-2 folder]
 
 ---
 
-## Week 3 - [Topic Title]
+## Week 3 - CSS
 
 **Topics Covered:**
-- [List main topics]
+-Styling documents using CSS
+-Deploying a GitHub file on Netlify
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned or found most interesting]
+Learning about CSS has been my favorite part of this class so far, because it is how web pages are styled. CSS does all the fun things like changing fonts, font-sizes, colors, and background images.
 
 **Projects/Exercises:**
-- [Describe what you built or practiced]
+-Style the HTML recipe from week 2 using Cascade Style Sheet
+-Practiced CSS exercises on CodePen that introduced me to grouping and chaining selectors
 
 **Files:**
 - [Link to specific files or note what's in the week-3 folder]
@@ -61,14 +68,16 @@ I found it interesting to learn about the history of the Web. I also liked using
 ## Week 4 - Repository Organization & Documentation
 
 **Topics Covered:**
-
+- Repository organization
+- Writing effective documentation
+- Markdown formatting
 
 **Key Takeaways:**
 [Write 1-2 sentences about what you learned]
 
 **Tasks Completed:**
-- ✓ Cleaned up and personalized my repo
-- ✓ Archived old readme.md file and created my own version
+- Cleaned up and personalized my repo
+- Archived old readme.md file and created my own version
 
 ---
 
