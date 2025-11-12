@@ -21,7 +21,7 @@ body {
   color: #0E0F12;
 }
 
-/* TYPOGRAPHY - use fluid sizing so headings scale on phones */
+/* type */
 h1 {
   font-family: "Playfair Display", serif;
   font-size: clamp(1.6rem, 4.5vw, 3rem);
@@ -58,7 +58,7 @@ p {
   margin-bottom: 0.75rem;
 }
 
-/* code blocks should wrap on small screens */
+/* code blocks should wrap on small screens?? */
 code {
   font-size: 0.95rem;
   max-width: 100%;
@@ -67,8 +67,8 @@ code {
   word-break: break-word;
 }
 
-/* main flexbox container - full width but constrained with max-width,
-   centered so layout shrinks naturally on phones. */
+/* main flexbox container (full width but constrained with max-width,
+   centered so layout shrinks naturally on phones) */
 .container {
   display: flex;
   width: 100%;
@@ -91,7 +91,7 @@ code {
   position: sticky;
   top: 0;
   height: 100vh;
-  overflow: auto; /* allow scrolling if content exceeds viewport height */
+  overflow: auto; 
   border-radius: 8px;
 }
 
@@ -117,11 +117,11 @@ code {
 .content {
   flex: 1;
   padding: 1.25rem;
-  background-color: transparent; /* content background handled by sections */
-  min-width: 0; /* allow flex child to shrink correctly on small screens */
+  background-color: transparent; 
+  min-width: 0; 
 }
 
-/* Hero */
+/* hero */
 .hero {
   text-align: left;
   margin-bottom: 2rem;
@@ -187,7 +187,7 @@ section ul {
   color: #444;
 }
 
-/* Small screens: stack layout and adjust sizes for phones (iPhone widths) */
+/* iphone media query */
 @media (max-width: 640px) {
   .container {
     flex-direction: column;
@@ -237,40 +237,3 @@ section ul {
     height: auto;
   }
 
-  /* make headings a little smaller on very small phones */
-  h1 {
-    font-size: clamp(1.25rem, 6.5vw, 2rem);
-    margin: 0.5rem 0;
-    padding: 0.5rem 0;
-  }
-
-  h2 {
-    font-size: clamp(1rem, 4.5vw, 1.5rem);
-  }
-
-  p {
-    font-size: 1rem;
-  }
-}
-
-/* Optional tighter breakpoint for very narrow phones (e.g., older iPhone SE) */
-@media (max-width: 375px) {
-  .container {
-    padding: 0.25rem;
-  }
-
-  .sidebar ul {
-    gap: 0.5rem;
-    padding-left: 0.25rem;
-  }
-
-  h1 {
-    font-size: clamp(1.1rem, 7.5vw, 1.6rem);
-    margin: 0.4rem 0;
-    padding: 0.4rem 0;
-  }
-
-  .hero h1 {
-    font-size: clamp(1rem, 8vw, 1.25rem);
-  }
-}
