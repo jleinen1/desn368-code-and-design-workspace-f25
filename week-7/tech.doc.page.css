@@ -1,7 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Inter;
+  font-family: 'Inter', serif;
   font-size: 20px;
+  background-color: #d4f3f1;
+  color: #111;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #0E0F12;
+  font-family: "Playfair Display";
+  font-size: 48px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
+  margin: 0rem;
+  padding: 1rem;
+}
+
+h2 {
+  color: #0E0F12;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;  
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* main flexbox container */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* nav/sidebar */
+.sidebar {
+  background: #111;
+  color: white;
+  width: 300px;
+  padding: 1.5rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Content Area */
+.content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #d4f3f1;
+}
+
+/* Hero */
+.hero {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 4px;
+}
+
+/* Section Blocks */
+section {
+  background: #b7ebe6;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section img {
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 3px;
+}
+
+section ul {
+  padding-left: 1.5rem;
+  margin-left: 0;
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer p {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .hero img, section img {
+    max-width: 100%;
+  }
 }
