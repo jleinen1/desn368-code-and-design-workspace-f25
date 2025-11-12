@@ -20,6 +20,7 @@ h1 {
   line-height: normal;
   margin: 1.25rem;
   padding: 1.25rem;
+  property: value !important;
 }
 
 h2 {
