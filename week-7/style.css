@@ -6,9 +6,7 @@
 
 body {
   font-family: 'Inter', serif;
-  font-size: 20px;
   background-color: #d4f3f1;
-  color: #111;
   line-height: 1.6;
 }
 
@@ -19,8 +17,8 @@ h1 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0rem;
-  padding: 1rem;
+  margin: 1.25rem;
+  padding: 1.25rem;
 }
 
 h2 {
@@ -29,7 +27,9 @@ h2 {
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;  
+  line-height: normal;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 h3 {
@@ -38,11 +38,20 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+code {
+  font-size: 1rem;
+  width: 50ch;
 }
 
 /* main flexbox container */
 .container {
   display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
   min-height: 100vh;
 }
 
