@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Reset and Normalize</title>
+</head>
+<body>
+<!-- nav -->
+  <nav>
+    <ul>
+      <li><a href="#what-is">What is a CSS Reset?</a></li>
+      <li><a href="#traditional">Traditional Resets</a></li>
+      <li><a href="#modern">Modern Resets</a></li>
+    </ul>
+  </nav>
+ <!-- header -->
+  <header>
+    <h1>CSS Reset & Normalize</h1>
+  </header>
+  <main>
+ <!-- what is a css reset -->
+    <section id="what-is">
+      <h2>What is a CSS reset?</h2>
+      <p>Different browsers sometimes have incosistencies in their default styles. Designers use CSS resets to neutralize or change those default styles. This way, the website looks the same across various browsers.</p>
+      <p>Basically, resets force designers to specifically define style rules for all the different parts of the website.</p>
+      <h3>Common Browser Incosistencies</h3>
+      <ul>
+        <li>Lists</li>
+        <li>Padding</li>
+        <li>Margins</li>
+        <li>Line Heights</li>
+        <li>Media Elements</li>
+      </ul>
+    </section>
+ <!-- trad vs modern -->
+    <section id="traditional-vs-modern">
+      <h2>Traditional Vs. Modern Resets</h2>
+<!-- traditional resets -->   <h3 id="traditional">Traditional Resets</h3>
+      <p>These resets aim to "aggressively neutralize" browser settings. This creates a blank slate for the designer.<p>
+      <p>The most common example of a traditional reset is the universal selector:</p>
+      <pre><code>* {
+  margin: 0;
+  padding: 0;
+}</code></pre>
+      <h4>Drawbacks of Traditional Resets</h4>
+      <ul>
+        <li>Poor performance caused by heavy use of the universal selector.</li>
+        <li>Overwrites all the browser defaults, even the helpful ones</li>
+        <li>Can disrupt form elements such as <code>&lt;input&gt;</code> or <code>&lt;textarea&gt;</code></li>
+      </ul>
+      <h3 id="modern">Modern Resets</h3>
+      <p>These modern resets are sometimes called "comprehensive resets". Instead of getting rid of all defaults, they aim to create more refined style baselines that prioritize accessibility and responsive design principles.</p>
+      <p>Basically, instead of starting with a "blank slate" like the traditional resets, the modern ones improve on what already exists.</p>
+<!-- modern resets --> 
+      <h4>Important Components of the Modern Reset</h4>
+      <ul>
+        <li>Intuitive box model (<code>box-sizing: border-box</code>)</li>
+        <li>Line-heights that make sense and increase readability</li>
+        <li>Standardized typography</li>
+        <li>Logical sizes and defaults for media elements</li>
+        <li>Features that prioritize responsive design, like text-wrap.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
