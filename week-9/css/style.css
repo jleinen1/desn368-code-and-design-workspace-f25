@@ -253,14 +253,21 @@ video-inner {
 }
 
 .mailing-bg {
-  background-image: #placeholder;
+  background-image: url("https://snipboard.io/x0Xqb6.jpg");
   background-size: cover;
   background-position: center;
+  min-height: 320px;
+  display: flex;
+  align-items: center;   
+  justify-content: center;
 }
+
 
 .mailing-overlay {
   background-color: rgba(253, 245, 230, 0.9);
   padding: 2rem 1.5rem;
+  max-width: 480px;
+  width: 100%;
 }
 
 .mailing-overlay h2 {
@@ -290,6 +297,8 @@ video-inner {
   background-color: var(--lace);
   font-family: "Open Sans", sans-serif;
 }
+
+
 
 /* focus state */
 
