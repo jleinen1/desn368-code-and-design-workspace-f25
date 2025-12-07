@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Thorn & Thread</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -18,18 +19,20 @@
 </head>
 <body>
   <!-- top nav bar -->
-  <header id="home" class="site-header">
-    <div class="nav-bar">
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#mailing-list">Mailing List</a></li>
-          <li><a href="#sizing-chart">Sizing</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+ <header id="header" class="site-header">
+  <div class="nav-bar">
+    <img id="header-img" src="images/thorn-thread-logo.svg" alt="Thorn &amp; Thread logo" />
+    <nav id="nav-bar">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#hero">Home</a></li>
+        <li><a class="nav-link" href="#features">Products</a></li>
+        <li><a class="nav-link" href="#data">Sizing</a></li>
+        <li><a class="nav-link" href="#contact">Mailing List</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+        
 
   <main>
     <!-- hero -->
@@ -42,27 +45,33 @@
         </div>
 
         <div class="hero-image">
-          <!-- place holder -->
-          <img src="images/hero-model.jpg" alt="Person wearing Thorn &amp; Thread hoodie" />
+          <!-- hero img -->
+          <img src="https://snipboard.io/shQF5N.jpg" alt="Person wearing Thorn &amp; Thread hoodie" />
         </div>
       </div>
     </section>
 
     <!-- video section -->
-    <section id="video" class="video-section">
-      <div class="checkered-frame">
-        <div class="video-inner">
-          <!-- If you want to embed a YouTube video instead:
-          <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Thorn & Thread lookbook"
-                  frameborder="0" allowfullscreen></iframe>
-          -->
-          <div class="play-button">&#9658;</div>
-        </div>
+    <section class="video-section">
+     <!-- border -->
+     <div class="checkered-frame">
+       <!-- spacing  -->
+       <div class="video-inner">
+         <!-- responsiveness -->
+         <div class="video-wrapper">
+            <iframe
+          id="video" src="https://www.youtube.com/embed/ptdxYW32Xds?si=nYRcKa0CZK-k3dp_"
+title="Thorn &amp; Thread lookbook" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+        </iframe>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+   
 
     <!-- products/feat cards -->
-    <section id="products" class="products">
+    <section id="features" class="products">
       <h2 class="section-title">Products</h2>
 
       <!-- feat card 1 -->
@@ -72,14 +81,14 @@
           <p>Built for the everyday wearer who wants comfort without losing edge.</p>
         </div>
         <div class="product-image">
-          <img src="images/tee-hoodie.jpg" alt="Back of Thorn &amp; Thread hoodie" />
+          <img src="https://snipboard.io/fqS4WQ.jpg" alt="Back of moth hoodie" />
         </div>
       </article>
 
       <!-- feat card 2 -->
       <article class="product-card">
         <div class="product-image">
-          <img src="images/steel-petal-hoodie.jpg" alt="Model wearing Steel &amp; Petal hoodie" />
+          <img src="https://snipboard.io/oAjKU6.jpg" alt="Model wearing Steel &amp; Petal hoodie" />
         </div>
         <div class="product-text">
           <h3>Steel &amp; Petal Hoodie</h3>
@@ -94,22 +103,22 @@
           <p>Designed for movement, expression, and durability.</p>
         </div>
         <div class="product-image">
-          <img src="images/cargo-pants.jpg" alt="Model wearing Thorn &amp; Lace cargo pants" />
+          <img src="https://snipboard.io/4mHP7d.jpg" alt="Model wearing Thorn &amp; Lace cargo pants" />
         </div>
       </article>
     </section>
 
     <!-- sizing chart -->
-    <section id="sizing-chart" class="sizing">
+    <section id="data" class="sizing">
       <h2 class="section-title">Sizing Chart</h2>
       <div class="table-wrapper">
-        <table>
+        <table id="data-table">
           <thead>
             <tr>
-              <th>Size</th>
-              <th>Chest (in)</th>
-              <th>Waist (in)</th>
-              <th>Hip (in)</th>
+              <th scope="col">Size</th>
+              <th scope="col">Chest (in)</th>
+              <th scope="col">Waist (in)</th>
+              <th scope="col">Hip (in)</th>
             </tr>
           </thead>
           <tbody>
@@ -148,33 +157,43 @@
       </div>
     </section>
 
-    <!-- contact form -->
-    <section id="mailing-list" class="mailing-list">
-      <div class="mailing-bg">
-        <!-- Background image is handled in CSS; this inner div keeps the overlay content centered -->
-        <div class="mailing-overlay">
-          <h2>Join the Mailing List!</h2>
+<!-- contact form -->
+<section id="contact" class="mailing-list">
+  <div class="mailing-bg">
+    <div class="mailing-overlay">
+      <h2>Join the Mailing List!</h2>
 
-          <form class="mailing-form">
-            <label for="name">Name:</label>
-            <input id="name" name="name" type="text" />
+      <form
+        id="contact-form"
+        class="mailing-form"
+        action="https://example.com/subscribe"
+        method="post">
 
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="email" />
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" />
 
-            <label for="phone">Phone Number:</label>
-            <input id="phone" name="phone" type="tel" />
+        <label for="phone">Phone Number:</label>
+        <input id="phone" name="phone" type="tel" />
 
-            <button type="submit" class="primary-btn">Sign Up</button>
-          </form>
-        </div>
+        <button id="submit" class="primary-btn">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</section>
+
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
   </main>
 
-  <!-- FOOTER -->
+
+  <!-- footer -->
   <footer class="site-footer">
-    <p> Thorn &a Thread</p>
-  </footer>
+    <p>Thorn & Thread</p>
+  </div>
+</footer>
+
 </body>
 </html>
