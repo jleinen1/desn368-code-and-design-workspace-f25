@@ -28,6 +28,12 @@ main {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1.5rem 4rem;
+  padding-top: 80px;
+}
+
+#header-img {
+  height; 32px;
+  width
 }
 
 /* top nav */
@@ -35,6 +41,11 @@ main {
 .site-header {
   background-color: var(--nav-blue);
   color: var(--lace);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .nav-bar {
@@ -70,14 +81,15 @@ main {
   color: var(--lace);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-link:hover {
   text-decoration: underline;
 }
 
 /* hero */
 
 .hero {
-  background-color:     var(--lace: #fdf5e6;);
+  background-color: var(--lace);
   margin-top: 0;
   padding: 2rem 0 2.5rem;
 }
@@ -87,6 +99,7 @@ main {
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.5fr);
   gap: 2rem;
   align-items: center;
+  animation: fadeInUp 0.9s ease-out;
 }
 
 .hero-text-card {
@@ -118,6 +131,35 @@ main {
 
 
 /* video */
+video-section {
+  padding: 3rem 0;
+}
+
+video-inner {
+ background-color: var(--lace);
+ padding: 0.75rem;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.checkered-frame {
+  padding: 0.75rem;
+  background-size: 12px 12px;
+  background-position: 0 0, 0 6px, 6px -6px, -6px 0;
+}
 
 /* products */
 
@@ -136,14 +178,19 @@ main {
 }
 
 .product-card {
+  transform: 0.2s ease, box-shadow: 0.2s ease;
   background-color: var(--lace);
-  border: 2px solid #d1bda1;
   padding: 1.5rem;
   margin-bottom: 1.75rem;
   display: grid;
   grid-template-columns: 1.3fr 1fr;
   gap: 1.5rem;
   align-items: center;
+}
+
+.product-card:hover {
+  transform: transformY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .product-card:nth-child(even) {
@@ -173,7 +220,103 @@ main {
 }
 
 /* table */
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
 
+#data-table: {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px;
+}
+
+#data-table th, #data-table td {
+  padding: 0.75rem 1rem:
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+#data-table thead {
+  background-color: #FFB6C1;
+  color: #222222;
+}
+}
+
+#data-table tbody tr:hover {
+  background-color: rgba(209, 189, 161, 0.35);
+}
+
+/* contact form */
+.mailing-list {
+  padding: 3rem 0;
+}
+
+.mailing-bg {
+  background-image: #placeholder;
+  background-size: cover;
+  background-position: center;
+}
+
+.mailing-overlay {
+  background-color: rgba(253, 245, 230, 0.9);
+  padding: 2rem 1.5rem;
+}
+
+.mailing-overlay h2 {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.mailing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.maling-form label {
+  font-size: .85rem;  
+}
+
+.mailing-form input,
+.mailing-form textarea {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #d1bda1;
+  background-color: var(--lace);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* focus state */
+
+.mailing-form input:focus,
+.mailing-form textarea:focus {
+  outline: 3px solid var(--accent-dark);
+}
+
+/* invalid state */
+
+mailing-form input:invalid
+mailing-form textarea:invalid {
+  border-color: #c0392b;
+}
+
+/* primary button */
+.primary-btn {
+  margin-top: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--nav-blue);
+  color: var(--lace);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.08rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
 
 /* footer */
 
@@ -183,19 +326,39 @@ main {
   text-align: left;
   padding: 0.8rem 1.5rem;
   margin-top: 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* keyframe */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* media query */
 
-@media (max-width: 900px) {
-  main {
-    padding: 0 1rem 3rem;
+@media (max-width: 768px) {
+  .main {
+    padding: 4.5rem 1rem 3rem;
   }
 
-  .hero-inner,
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+    
+  }
   .product-card {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
   .product-card:nth-child(even) {
@@ -205,7 +368,17 @@ main {
   .hero-text-card {
     max-width: none;
   }
-}
+  
+  .nav-links {
+    flex-direction: column;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start
+  }
 
 
 
