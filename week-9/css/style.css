@@ -13,9 +13,6 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: "Open Sans",  sans-serif;
   background-color: var(--lace);
   color: var(--text-dark);
@@ -92,9 +89,13 @@ main {
   background-color: var(--lace);
   margin-top: 0;
   padding: 2rem 0 2.5rem;
+  min-height: 100vh;      /* fills at least one full screen height */
+  display: flex;
+  align-items: center;    /* vertically center the grid inside */
 }
 
 .hero-inner {
+  width: 100%;
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.5fr);
   gap: 2rem;
