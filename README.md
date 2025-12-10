@@ -39,20 +39,20 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 ## Featured Projects
 
 **The Recipe**  
-[1-sentence description]  
-[View Project](./week-XX/recipe/)
+A clean, semantic HTML webpage that presents a single recipe with clear structure typography, and hierarchy.  
+(https://jleinen1.github.io/desn368-code-and-design-workspace-f25/week-2/recipe.html)
 
 **Tribute Site**  
-[1-sentence description]  
-[View Project](./week-XX/tribute/)
+A multi-section webpage dedicated to a musician or creator, focused on layout, navigation, and visual rhythm. 
+(https://jleinen1.github.io/desn368-code-and-design-workspace-f25/week-4/bonnie.html)
 
 **Field Guide**  
-[1-sentence description]  
-[View Project](./week-XX/field-guide/)
+An exploratory, narrative-driven website blending design, storytelling, and HTML/CSS structure. 
+(https://jleinen1.github.io/desn368-code-and-design-workspace-f25/week-7/tech-doc-site/tech-doc.html)
 
 **Product Landing Page**  
-[1-sentence description]  
-[View Project](./week-XX/landing-page/)
+A branded landing page designed to showcase a fictional streetwear-inspired product line. 
+[View Project](https://jleinen1.github.io/desn368-code-and-design-workspace-f25/week-9/product-landing.html)
 
 ---
 
