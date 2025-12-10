@@ -83,8 +83,9 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 - [Any tutorials or Stack Overflow threads that helped]
 
 **AI Assistance**
-- [If used: "Used Claude for debugging CSS grid in Week 6"]
-- [If none: "No AI assistance used"]
+- Used AI for layout cleanup on Field guide.
+- Used AI to help with debugging and animations on Product Landing page.
+- Used AI to help with animations and general clean up on final portfolio. 
 
 ---
 
@@ -94,4 +95,4 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 
 ---
 
-© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.
+© 2025 Justine Leinen. Built for DESN368 at Eastern Washington University.
