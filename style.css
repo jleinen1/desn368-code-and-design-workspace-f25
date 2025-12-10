@@ -14,6 +14,13 @@ body {
   background-color: white;
   color: var(--nav-blue);
   line-height: 1.5;
+    background: linear-gradient(
+    135deg,
+    #1B3C5315 0%,   /* barely-there transparent navy */
+    #CBDCEB 30%,    /* peri / airy blue */
+    #FFE3E3 100%    /* soft rosy pink */
+  );
+  background-attachment: fixed;
 }
 
 h1 {
@@ -22,12 +29,12 @@ h1 {
 }
 
 h2 {
-  font-family: "Playfair Display";
+  font-family: "Open Sans";
   font-size: 1.5rem;
 }
 
 h3 {
-  font-family: "Open Sans";
+  font-family: "Playfair Display";
   font-size: 1rem;
 }
 
@@ -40,51 +47,35 @@ main {
   padding-top: 80px; /* keeps content below fixed nav */
 }
 
-/* HERO */
+/* hero */
 .hero {
   min-height: 100vh;
-  background-image: url("https://snipboard.io/Hb1VeB.jpg");
+  background-image: url("https://snipboard.io/WAdUrD.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
+  align-items: center;   
   justify-content: flex-start;
-  padding: 7rem 3rem;
+  padding: 4rem 2.5rem; 
   color: var(--nav-blue);
 }
 
-.hero-content {
-  background: none;
-  padding: 0;
-  border-radius: 0;
-  max-width: 420px;
-}
-
-.hero-content h1 {
-  margin: 0 0 0.5rem;
-  color: var(--nav-blue);
-}
-
-.hero-content p {
-  margin: 0;
-  font-size: 0.95rem;
-}
 
 /* about me */
 .about {
-  padding: 4rem 0;
+  padding: 3rem 0rem;
   position: relative;
 }
 
 /* centers the inner content on the page */
 .about-inner {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 1.5rem;
   text-align: left;
 }
 
@@ -108,32 +99,40 @@ main {
   max-width: 520px;
 }
 
-/* sparkle */
+/* sparkle containers */
 .sparkle {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+  width: 20px;
+  height: auto;
+  font-size: 2rem;
+  line-height: 3rem;
+  padding: 2rem;
+  color: var(--nav-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulseStar 2.8s ease-in-out infinite;
+
 }
 
-/* individual sparkle positions */
+/* left side of About section */
 .sparkle-left {
-  left: -5px;
-  top: 10%;
+  left: -25px;    /* move closer or farther as needed */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
+/* right side of About section */
 .sparkle-right {
-  right: -5px;
-  bottom: 10%;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-
-.sparkle::before,
-.sparkle::after {
-  content: "";
-  position: absolute;
-  background: var(--nav-blue);
-  border-radius: 50%;
+/* vertical star stacks */
+.sparkle::before {
+  content: "✦\A✦\A✦"; 
+  white-space: pre; /* preserve line breaks */
 }
 
 /* vertical oval */
@@ -156,7 +155,7 @@ main {
 
 /* top nav */
 .site-header {
-  background-color: var(--peri);
+  background-color: var(--nav-blue);
   color: var(--nav-blue);
   position: fixed;
   top: 0;
@@ -171,15 +170,7 @@ main {
   padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-}
-
-.logo-text {
-  font-family: "Bebas Neue", Arial, sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  font-size: 1.1rem;
-  color: var(--nav-blue);
+  justify-content: center;
 }
 
 .nav-links {
@@ -197,7 +188,7 @@ main {
   font-size: 0.9rem;
   letter-spacing: 0.06em;
   text-decoration: none;
-  color: var(--nav-blue);
+  color: var(--peri);
 }
 
 .nav-links a:hover,
@@ -273,8 +264,8 @@ main {
 
 /* footer */
 .site-footer {
-  background-color: #FDF5E6;
-  color: #1B3C53;         
+  background-color: #1C352D;
+  color: #C9E9D2;         
   padding: 2rem 1rem;
   font-family: "Open Sans", sans-serif;
   font-size: 0.9rem;
@@ -331,3 +322,20 @@ main {
     transform: translateY(-2px);
   }
 }
+
+@keyframes pulseStar {
+  0% {
+    transform: translateY(-50%) scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translateY(-50%) scale(1.25);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50%) scale(1);
+    opacity: 0.85;
+  }
+}
+
+
