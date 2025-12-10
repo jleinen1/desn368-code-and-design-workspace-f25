@@ -80,7 +80,8 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 - Various Unsplash images
 
 **Tutorials & Resources**
-- [Any tutorials or Stack Overflow threads that helped]
+- In class flexbox tutorial
+- In class Mobile Nav tutorial
 
 **AI Assistance**
 - Used AI for layout cleanup on Field guide.
