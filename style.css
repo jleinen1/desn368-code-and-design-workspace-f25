@@ -68,6 +68,10 @@ main {
   margin: 0;
   margin-top: 5rem;
   text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  opacity: 0;
+  animation: fadeInHero 1.2s ease-out forwards;
+  animation-delay: 0.2s;
+}
 }
 
 /* about me */
@@ -216,7 +220,7 @@ main {
   flex-direction: row;
 }
 
-/* subtle hover */
+/* project card hover */
 .product-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.16);
@@ -326,5 +330,17 @@ main {
     opacity: 0.85;
   }
 }
+
+@keyframes fadeInHero {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 
