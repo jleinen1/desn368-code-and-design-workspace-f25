@@ -84,7 +84,7 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 
 **AI Assistance**
 - Used AI for layout cleanup on Field guide.
-- Used AI to help with debugging and animations on Product Landing page.
+- Used AI to help with debugging and helping with hover animations on Product Landing page.
 - Used AI to help with animations and general clean up on final portfolio. 
 
 ---
