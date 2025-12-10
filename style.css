@@ -50,18 +50,25 @@ main {
 
 /* hero */
 .hero {
-  min-height: 60vh;
+  min-height: 100vh;
   background-image: url("https://snipboard.io/WAdUrD.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;   
-  justify-content: flex-start;
-  padding: 4rem 2.5rem; 
+  align-items: flex-start;   
+  justify-content: flex-start; 
+  padding: 2.5rem;          
   color: var(--nav-blue);
 }
 
+.hero h1 {
+  font-size: 4rem;      
+  line-height: 1.1;
+  margin: 0;
+  margin-top: 0.8rem;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+}
 
 /* about me */
 .about {
