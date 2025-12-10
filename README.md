@@ -17,7 +17,7 @@ Instructor: Travis Masingale
 
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
-- **[View Live Portfolio](https://[your-username].github.io/[your-repo-name]/)**
+- **[View Live Portfolio](https://jleinen1.github.io/desn368-code-and-design-workspace-f25/)**
 - **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
 
 ---
@@ -32,7 +32,7 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 - **Accent Color:** #CBDCEB
 - **Background:** Gradient
 
-**[View Figma File](https://www.figma.com/file/[your-figma-link])**
+**[View Figma File](https://www.figma.com/design/tU3s2YoIhApqUuYkQtxT4m/design-368-moodz-vibez-Leinen-f25?node-id=0-1&t=N5grqGSOsH2qicL2-1)**
 
 ---
 
