@@ -132,14 +132,15 @@ main {
 
 
 /* video */
-video-section {
+.video-section {
   padding: 3rem 0;
 }
 
-video-inner {
- background-color: var(--lace);
- padding: 0.75rem;
+.video-inner {
+  background-color: var(--lace);
+  padding: 0.75rem;
 }
+
 
 #video {
   position: absolute;
