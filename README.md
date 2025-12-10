@@ -24,13 +24,13 @@ This repository documents my journey through DESN368, where I learned to build f
 
 ## Design Direction
 
-For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
+For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 
-- **Header Font:** [Font Name]
-- **Body Font:** [Font Name]
-- **Primary Color:** [Hex Code]
-- **Accent Color:** [Hex Code]
-- **Background:** [Hex Code]
+- **Header Font:** Playfair Display
+- **Body Font:** Open Sans
+- **Primary Color:** #1B3C53
+- **Accent Color:** #CBDCEB
+- **Background:** Gradient
 
 **[View Figma File](https://www.figma.com/file/[your-figma-link])**
 
