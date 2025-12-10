@@ -77,7 +77,7 @@ For my portfolio, I pursued a dreamy, soft, and ethereal aesthetic.
 ## Credits & Citations
 
 **Assets**
-- [List any images, icons, or assets you didn't create]
+- Various Unsplash images
 
 **Tutorials & Resources**
 - [Any tutorials or Stack Overflow threads that helped]
