@@ -125,14 +125,14 @@ main {
 /* left side stars */
 .sparkle-left {
   left: -25px;
-  top: 50%;
+  top: 65%;
   transform: translateY(-50%);
 }
 
 /* right side stars */
 .sparkle-right {
   right: -25px;
-  top: 50%;
+  top: 65%;
   transform: translateY(-50%);
 }
 
