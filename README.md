@@ -5,7 +5,7 @@
   3. Update the links to point to YOUR repository
 -->
 
-# [Your Name] — Web Design Portfolio
+# Justine Leinen — Web Design Portfolio
 
 **DESN368: Code + Design 1 | Fall 2025**  
 Eastern Washington University  
