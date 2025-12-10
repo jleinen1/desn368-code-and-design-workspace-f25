@@ -26,6 +26,7 @@ body {
 h1 {
   font-family: "Playfair Display";
   color: var(--nav-blue);
+  font-size: 3rem;
 }
 
 h2 {
@@ -49,7 +50,7 @@ main {
 
 /* hero */
 .hero {
-  min-height: 100vh;
+  min-height: 60vh;
   background-image: url("https://snipboard.io/WAdUrD.jpg");
   background-size: cover;
   background-position: bottom;
