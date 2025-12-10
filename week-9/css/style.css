@@ -362,23 +362,19 @@ mailing-form textarea:invalid {
 /* media query */
 
 @media (max-width: 768px) {
-  .main {
-    padding: 4.5rem 1rem 3rem;
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
-  .hero-inner {
-    flex-direction: column;
-    text-align: center;
-    
-  }
   .product-card {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .product-card:nth-child(even) {
     grid-template-columns: 1fr;
   }
-
+  
   .hero-text-card {
     max-width: none;
   }
@@ -393,6 +389,7 @@ mailing-form textarea:invalid {
     flex-direction: column;
     align-items: flex-start
   }
+}
 
 
 
