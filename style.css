@@ -208,6 +208,11 @@ main {
   overflow: hidden;
 }
 
+.hidden-project {
+  display: none;
+}
+
+
 /* alternating layout */
 .product-card:nth-of-type(odd) {
   flex-direction: row-reverse;
