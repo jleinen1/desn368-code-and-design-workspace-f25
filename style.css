@@ -49,6 +49,7 @@ main {
 }
 
 /* hero */
+
 .hero {
   min-height: 100vh;
   background-image: url("https://snipboard.io/WAdUrD.jpg");
@@ -276,14 +277,14 @@ main {
 
 /* media query */
 
-@media (max-width: 768px) {
+@media (max-width: 768px) 
 
   main {
     padding: 4.5rem 1rem 3rem;
   }
 
   .hero {
-    padding: 6rem 1.5rem 3rem;
+    min-height: auto;
     align-items: flex-end;
   }
 
@@ -318,20 +319,6 @@ main {
   }
 }
 
-@keyframes pulseStar {
-  0% {
-    transform: translateY(-50%) scale(1);
-    opacity: 0.85;
-  }
-  50% {
-    transform: translateY(-50%) scale(1.25);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-50%) scale(1);
-    opacity: 0.85;
-  }
-}
 
 
 
