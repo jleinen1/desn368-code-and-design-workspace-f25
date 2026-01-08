@@ -277,27 +277,34 @@ main {
 
 /* media query */
 
-@media (max-width: 768px) 
-
-  main {
+ @media (max-width: 768px) {
+  
+   main {
     padding: 4.5rem 1rem 3rem;
   }
 
   .hero {
     min-height: auto;
+    padding: 4rem 1.5rem 2.5rem;
     align-items: flex-end;
   }
 
-  .hero-content {
-    max-width: 100%;
-  }
-
-  .nav-bar {
-    justify-content: center;
+  .hero h1 {
+    font-size: 3rem;
+    margin-top: 0;
   }
 
   .about-inner {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .product-card {
+    flex-direction: column;
+  }
+}
+
+{
     text-align: center;
   }
 
